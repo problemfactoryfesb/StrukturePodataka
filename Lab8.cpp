@@ -1,7 +1,7 @@
 
-/*Napisati program koji pomo?u vezanih listi (stabala) predstavlja strukturu direktorija.
- Omoguciti unos novih direktorija i pod-direktorija, ispis sadrûaja direktorija i povratak
- u prethodni direktorij. Tocnije program treba simulirati koriötenje DOS naredbi:
+/*Napisati program koji pomocu vezanih listi (stabala) predstavlja strukturu direktorija.
+ Omoguciti unos novih direktorija i pod-direktorija, ispis sadrzaja direktorija i povratak
+ u prethodni direktorij. Tocnije program treba simulirati kori≈°tenje DOS naredbi:
  "md", "cd dir", "cd.." i "dir".*/
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>

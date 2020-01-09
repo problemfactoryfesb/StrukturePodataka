@@ -32,7 +32,7 @@ int InsertData(Pos);
 int PrintDirectory(Pos);
 Pos ChangeDirectory(Pos);
 Pos Find(char*, Pos);
-Pos cdt(position);
+Pos Cd(position);
 
 int main()
 {
@@ -63,7 +63,7 @@ int main()
 			PrintDirectory(curr);
 			break;
 		case '4':
-			curr = cdt(stack);
+			curr = Cd(stack);
 			break;
 		default:
 			printf("greska");
@@ -72,7 +72,7 @@ int main()
 	}
 	return 0;
 }
-Pos cdt(position stack)
+Pos Cd(position stack)
 {
 	Pos q = NULL;
 	position temp = NULL;
